@@ -22,7 +22,7 @@ target = SUPPORTED_OUTPUTS[0]
 class Window(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Image Converter")
+        self.setWindowTitle("Osiris - Image Converter")
         self.setGeometry(500,200,600,400)
         self.setAcceptDrops(True)
         self.imgLabel = ImageLabel()
